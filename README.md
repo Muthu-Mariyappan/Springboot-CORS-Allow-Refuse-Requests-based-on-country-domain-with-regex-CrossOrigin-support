@@ -35,9 +35,9 @@
 
 	To achieve the goal, following method is followed. 
 	
-	> Specify the pattern to be matched
-	> Get the origin from request header
-	> compare origin with pattern, if it matches then add that origin to Access-Control-Allow-Origin header.
+> Specify the pattern to be matched
+> Get the origin from request header
+> compare origin with pattern, if it matches then add that origin to Access-Control-Allow-Origin header.
 
 	To achieve this new RequestFilter is used to do pattern matching and to add CORS headers.
 	
